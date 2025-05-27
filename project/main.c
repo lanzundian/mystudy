@@ -51,7 +51,7 @@ int main(void)
 {
 	
 
-#ifdef	strlen_and_sizeof_test	
+#ifdef	use_strlen_and_sizeof_test
 	
 	char  str1[] = { '1','0','0','\0','a','\0','0' };
 	
