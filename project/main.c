@@ -46,8 +46,8 @@ void _sys_exit(int return_code)
 
 //#define  use_strlen_and_sizeof_test		//strlen∫Õsizeof∫Ø ˝≤‚ ‘
 //#define  use_select_sort_test				//—°‘Ò≈≈–Ú∑®≤‚ ‘
-#define  use_bubble_sort_test				//√∞≈›≈≈–Ú∑®≤‚ ‘
-
+//#define  use_bubble_sort_test				//√∞≈›≈≈–Ú∑®≤‚ ‘
+#define  use_swap_sort_test					//Ωªªª≈≈–Ú∑®≤‚ ‘
 
 
 int main(void)
@@ -95,6 +95,21 @@ int main(void)
 #endif
 
 	
+
+#ifdef  use_swap_sort_test
+	
+	uint8_t  a[10] = {2,8,3,6,7,9,4,1,10,5};
+	
+	swapsort(a, sizeof(a) / sizeof(a[0]) );
+	
+	for(uint8_t i = 0; i < 10; i++)
+	{
+		printf("%d ",a[i]);
+	}
+	
+#endif
+
+
 	
 	return 0;
 	
