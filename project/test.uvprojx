@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>.\Sort</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -388,6 +388,11 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>sort.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sort\sort.c</FilePath>
             </File>
           </Files>
         </Group>
